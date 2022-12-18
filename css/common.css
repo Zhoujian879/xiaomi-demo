@@ -1,0 +1,349 @@
+    /* 版心 */
+    
+    .common {
+        width: 1533px;
+        margin: 0 auto;
+    }
+    /* <!-- 头部模块 --> */
+    /* <!-- 头部顶部栏 --> */
+    
+    .nav-top {
+        height: 50px;
+        width: 1920px;
+        background-color: #333333;
+       /* padding-top: 250px; */
+    }
+    
+    .nav-top .common {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* <!-- 导航栏文字 --> */
+    
+    .nav-top .text {
+        font-size: 12px;
+        line-height: 50px;
+    }
+    
+    .nav-top .text .sx {
+        margin: 0 10px;
+    }
+    /* <!-- 导航栏注册 --> */
+    
+    .nav-top .logim {
+        line-height: 50px;
+        font-size: 12px;
+    }
+    /* <!-- 导航栏购物车 --> */
+    
+    .nav-top .gwc {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        background-color: #424242;
+        color: #aab3ba;
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .nav-top .gwc:hover::after {
+        content: '购物车中还没有商品，赶紧选购吧！';
+        width: 395px;
+        height: 125px;
+        background-color: #fff;
+        position: absolute;
+        right: -1px;
+        top: 50px;
+        transition: all .3s;
+        cursor: pointer;
+        line-height: 125px;
+        color: #aab3ba;
+        z-index: 9999999999999999999999999;
+        box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    }
+    
+    .nav-top .gwc:hover {
+        background-color: #fff;
+        color: #ff6700;
+    }
+    /* <!-- 导航栏 --> */
+    
+    .nav {
+        height: 105px;
+        width: 1920px;
+    }
+    
+    .nav .common {
+        /* background-color: #3d3d3d; */
+        height: 105px;
+        display: flex;
+    }
+    /* <!-- logo模块 --> */
+    
+    .nav .common .logo {
+        height: 86px;
+        width: 86px;
+        margin: 9px;
+    }
+    
+    .nav .common .logo img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    /* <!-- 导航栏文字模块 --> */
+    
+    .nav .common ul {
+        width: 780px;
+        height: 105px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 200px;
+    }
+    
+    .nav .common ul li {
+        font-size: 21px;
+        line-height: 105px;
+    }
+    
+    .nav .common ul li a {
+        color: #333333;
+    }
+    
+    .nav .common ul li a:hover {
+        color: #ff6700;
+    }
+    
+    .li-box {
+        height: 287px;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 155px;
+        display: none;
+        background-color: #fff;
+        box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+        z-index: 99999999999999999999999999999999999999999999999999999999;
+    }
+    
+    .li-box .box {
+        width: 204px;
+        height: 201px;
+        /* background-color: red; */
+        margin-top: 25px;
+        box-sizing: border-box;
+        margin-right: 20px;
+        transition: all 4s;
+        background-color: #fff;
+    }
+    
+    .nav .common ul li:hover>.li-box {
+        display: block;
+    }
+    /* <!-- input模块 --> */
+    
+    .nav .common .ipt {
+        width: 306px;
+        height: 64px;
+        margin-left: 73px;
+        margin-top: 22px;
+        border: 1px solid #e1e1e1;
+        font-size: 21px;
+        padding-left: 20px;
+    }
+    
+    .nav .common .sm {
+        width: 65px;
+        height: 65px;
+        background-color: #fff;
+        border: 1px solid #e1e1e1;
+        position: absolute;
+        left: 1655px;
+        top: 72px;
+        cursor: pointer;
+    }
+    /* <!-- 底部模块 --> */
+    /* <!-- 顶部上导航 --> */
+    
+    .ft-top {
+        width: 100%;
+        height: 600px;
+        background-color: #fff;
+        padding-top: 20px;
+    }
+    
+    .ft-top .common .s-top {
+        height: 99px;
+        border-bottom: 1px solid #e1e1e1;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ft-top .common .s-top .sit {
+        width: 314px;
+        height: 99px;
+    }
+    
+    .ft-top .s-top .sit i {
+        font-size: 25px;
+        padding-left: 10px;
+        color: #42426c;
+    }
+    
+    .ft-top .s-top .sit a {
+        display: block;
+        width: 314px;
+        height: 30px;
+        border-left: 1px solid #e1e1e1;
+        text-align: center;
+        font-size: 25px;
+        color: #42426c;
+    }
+    
+    .ft-top .s-top .sit a:last-child {
+        border-right: 1px solid #e1e1e1;
+    }
+    /* <!-- <dt模块 --> */
+    
+    .dty {
+        width: 100%;
+        height: 485px;
+    }
+    
+    .dty .warp {
+        width: 1533px;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+    }
+    
+    .dty .warp dl {
+        margin-left: 160px;
+        margin-right: -34px;
+        margin-top: 61px;
+    }
+    
+    .dty .warp dl dt {
+        font-size: 25px;
+        margin-bottom: 15px;
+        color: #42426c;
+    }
+    
+    .dty .warp dl dt dd {
+        font-size: 15px;
+        color: #757575;
+    }
+    
+    .right-box {
+        width: 319px;
+        height: 149px;
+        position: absolute;
+        border-left: 1px solid #e1e1e1;
+        right: -46px;
+        top: 55px;
+        text-align: center;
+    }
+    
+    .right-box h4 a {
+        font-size: 25px;
+        color: #ff6700;
+    }
+    
+    .right-box p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .right-box .xx-b {
+        width: 150px;
+        height: 37px;
+        border: 1px solid #ff6700;
+        margin-left: 85px;
+        line-height: 37px;
+        color: #ff6700;
+        cursor: pointer;
+    }
+    
+    .right-box .xx-b:hover {
+        background-color: #ff6700;
+        color: #fff;
+    }
+    /* <!-- 顶部下导航 --> */
+    
+    .ft-bott {
+        width: 100%;
+        height: 330px;
+        background-color: #fafafa;
+        position: relative;
+    }
+    
+    .ft-bott .text-bt {
+        font-size: 15px;
+        padding-top: 70px;
+        padding-left: 120px;
+        color: #757575;
+    }
+    
+    .ft-bott .text-bttp {
+        font-size: 15px;
+        padding-left: 120px;
+    }
+    
+    .ft-bott .text-bt a {
+        color: #757575;
+    }
+    
+    .ft-bott .text-bttp a {
+        color: #757575;
+    }
+    
+    .ft-bott .text-bt a:hover {
+        color: #ff6700;
+    }
+    
+    .ft-bott .text-bttp a:hover {
+        color: #ff6700;
+    }
+    
+    .ft-bott .ew {
+        font-size: 15px;
+        padding-left: 120px;
+        color: #b0b0b0;
+    }
+    
+    .ft-bott .logo {
+        height: 86px;
+        width: 86px;
+        margin: 9px;
+        position: absolute;
+        top: 60px;
+    }
+    
+    .ft-bott .logo img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    
+    .ft-bott .iges {
+        width: 640px;
+        height: 33px;
+        padding-left: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ft-bott .iges .gges {
+        width: 103px;
+        height: 33px;
+    }
+    
+    .ft-bott .iges .gges img {
+        width: 100%;
+        height: 100%;
+    }
